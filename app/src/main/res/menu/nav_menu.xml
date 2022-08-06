@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:iconTint="@color/main"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/risk_haritas" />
+    <item
+        android:id="@+id/navigation_earthquake"
+        android:iconTint="@color/main"
+        android:icon="@drawable/iconimg"
+        android:title="@string/bottom2" />
+    <item
+        android:id="@+id/navigation_bag"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+        android:title="@string/bottom1"  />
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/navigation_earthquake">
+
+    <fragment
+        android:id="@+id/navigation_earthquake"
+        android:name="com.tugceaksoy.earthquick.ui.main.earthquake.EarthQuakesFragment"
+        android:label="fragment_earth_quakes"
+        tools:layout="@layout/fragment_earth_quakes" />
+    <fragment
+        android:id="@+id/navigation_bag"
+        android:name="com.tugceaksoy.earthquick.ui.main.earthquakebag.BagFragment"
+        android:label="fragment_bag"
+        tools:layout="@layout/fragment_bag" />
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.tugceaksoy.earthquick.ui.main.map.EarthQuakeMapFragment"
+        android:label="fragment_earth_quake_map"
+        tools:layout="@layout/fragment_earth_quake_map" />
+</navigation>
